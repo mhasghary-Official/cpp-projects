@@ -9,6 +9,7 @@ A terminal-based implementation of the popular 2048 puzzle game written in C++.
 **🎮 About the Game**
 
 2048 is a sliding block puzzle game where the goal is to combine tiles with the same numbers to create a tile with the number 2048. This implementation features a clean terminal interface and smooth gameplay.
+
 **✨ Features**
 
 · 🎯 Classic 2048 gameplay - Faithful to the original game mechanics
