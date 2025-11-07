@@ -1,8 +1,8 @@
 # 2048 Game - C++ Implementation
 
-https://img.shields.io/badge/C++-11-blue
-https://img.shields.io/badge/platform-linux%20%7C%20macos-lightgrey
-https://img.shields.io/badge/license-MIT-green
+![](https://img.shields.io/badge/C++-11-blue)
+![](https://img.shields.io/badge/platform-linux%20%7C%20macos-lightgrey)
+![](https://img.shields.io/badge/license-MIT-green)
 
 A terminal-based implementation of the popular 2048 puzzle game written in C++.
 
