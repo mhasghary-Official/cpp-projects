@@ -6,11 +6,10 @@
 
 A terminal-based implementation of the popular 2048 puzzle game written in C++.
 
-# 🎮 About the Game
+**🎮 About the Game**
 
 2048 is a sliding block puzzle game where the goal is to combine tiles with the same numbers to create a tile with the number 2048. This implementation features a clean terminal interface and smooth gameplay.
-
-# ✨ Features
+**✨ Features**
 
 · 🎯 Classic 2048 gameplay - Faithful to the original game mechanics
 · ⌨️ Keyboard controls - Intuitive WASD controls for movement
@@ -19,15 +18,15 @@ A terminal-based implementation of the popular 2048 puzzle game written in C++.
 · ⚡ Efficient algorithms - Optimized tile movement and merging
 · 🏁 Win/lose detection - Automatic game state detection
 
-# 🛠️ Installation & Build
+**🛠️ Installation & Build**
 
-Prerequisites
+*Prerequisites*
 
 · C++11 compatible compiler (GCC, Clang, etc.)
 · Linux or macOS terminal
 · CMake (optional)
 
-Build Instructions
+*Build Instructions*
 
 ```bash
 # Clone the repository
@@ -43,7 +42,7 @@ cmake ..
 make
 ```
 
-# 🎯 How to Play
+**🎯 How to Play**
 
 Controls
 
@@ -53,7 +52,7 @@ Controls
 · D ➡️ Move Right
 · Q ➡️ Quit Game
 
-# Game Rules
+**Game Rules**
 
 1. Tiles slide in the chosen direction until they hit the wall or another tile
 2. When two tiles with the same number collide, they merge into their sum
@@ -61,7 +60,7 @@ Controls
 4. The game is won when you create a 2048 tile
 5. The game ends when no more moves are possible
 
-# 🏗️ Project Structure
+**🏗️ Project Structure**
 
 ```
 2048.cpp
@@ -76,7 +75,7 @@ Controls
     └── Input processing and display updates
 ```
 
-# 🚀 Usage
+**🚀 Usage**
 
 ```bash
 # Run the game
@@ -93,7 +92,7 @@ Score: 0
 Controls: W (Up), S (Down), A (Left), D (Right), Q (Quit)
 ```
 
-# 🔧 Technical Details
+**🔧 Technical Details**
 
 Key Algorithms
 
@@ -123,7 +122,7 @@ for (int j = 0; j < (int)temp.size() - 1; j++) {
 }
 ```
 
-# 🤝 Contributing
+**🤝 Contributing**
 
 Contributions are welcome! Here's how you can help:
 
@@ -133,7 +132,7 @@ Contributions are welcome! Here's how you can help:
 4. Push to the branch (git push origin feature/AmazingFeature)
 5. Open a Pull Request
 
-# Development Ideas
+**Development Ideas**
 
 · Add color support for terminals
 · Implement undo functionality
@@ -141,7 +140,7 @@ Contributions are welcome! Here's how you can help:
 · Create different board sizes
 · Add animations and effects
 
-# 📝 Code Style
+**📝 Code Style**
 
 This project follows standard C++ best practices:
 
@@ -150,17 +149,17 @@ This project follows standard C++ best practices:
 · Memory-efficient algorithms
 · Comprehensive error handling
 
-# 🐛 Known Issues
+**🐛 Known Issues**
 
 · Terminal clearing uses ANSI escape codes (Linux/macOS only)
 · No color support in current version
 · Limited to 4x4 grid size
 
-# 📄 License
+**📄 License**
 
 This project is licensed under the gpl 3 License - see the LICENSE file for details.
 
-# 🙏 Acknowledgments
+**🙏 Acknowledgments**
 
 · Original 2048 game by Gabriele Cirulli
 · C++ standard library for efficient data structures
